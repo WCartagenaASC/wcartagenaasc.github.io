@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/wesley-react-website/static/css/main.f75527f1.css",
+    "main.js": "/wesley-react-website/static/js/main.c983513b.js",
+    "static/js/787.3b71e504.chunk.js": "/wesley-react-website/static/js/787.3b71e504.chunk.js",
+    "static/media/helvetica-neu.ttf": "/wesley-react-website/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/wesley-react-website/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/wesley-react-website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/wesley-react-website/index.html",
+    "main.f75527f1.css.map": "/wesley-react-website/static/css/main.f75527f1.css.map",
+    "main.c983513b.js.map": "/wesley-react-website/static/js/main.c983513b.js.map",
+    "787.3b71e504.chunk.js.map": "/wesley-react-website/static/js/787.3b71e504.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f75527f1.css",
+    "static/js/main.c983513b.js"
+  ]
+}
