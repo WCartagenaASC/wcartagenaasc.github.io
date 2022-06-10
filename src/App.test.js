@@ -1,8 +1,16 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import './App.scss'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+function App() {
+  return (
+    <>
+      <Routes>
+        <Route path="/wesley-react-website" element={<Layout />}>
+        </Route>
+      </Routes>
+    </>
+  )
+}
+
+export default App
