@@ -1,0 +1,172 @@
+.nav-bar {
+    background: #181818;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 60px;
+
+
+      
+  img{
+    position: relative;
+    padding-left: 10px;
+
+  }
+    .letter-logo{
+      padding-top: 10px;
+      padding-left: 35px;
+      width: 24px;
+      z-index: 0;
+    }
+    .sub-logo{
+      display:block;
+      width: 75px;
+      z-index: 1;
+    }
+    nav{
+      display: block;
+      text-align: center;
+      width: 100%;
+      #home-link{
+        text-align: center;
+        padding-right: 25px;
+        bottom: 45px;
+        font-size: 35px;
+      }
+      #about-link{
+        text-align: center;
+        padding-right: 25px;
+        bottom: 45px;
+        font-size: 35px;
+      }
+      #contact-link{
+        text-align: center;
+        padding-right: 25px;
+        bottom: 45px;
+        font-size: 35px;
+      }
+      a {
+        font-size: 22px;
+        color: #4d4d4e;
+        display: inline-block;
+        line-height: 51px;
+        height: 51px;
+        position: relative;
+        text-decoration: none;
+    
+        i {
+          transition: all 0.3s ease-out;
+        }
+    
+        &:hover {
+          color: #ffd700;
+    
+          svg {
+            opacity: 0;
+          }
+    
+          &:after {
+            opacity: 1;
+          }
+        }
+    
+        &:after {
+          content: '';
+          font-size: 9px;
+          letter-spacing: 2px;
+          position: absolute;
+          bottom: 0;
+          display: block;
+          width: 100%;
+          opacity: 0;
+          text-align: center;
+          -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+        }
+    
+        &:first-child {
+          &:after {
+            content: 'HOME';
+          }
+        }
+      }
+    
+      #about-link {
+        &:after {
+          content: 'ABOUT';
+          text-align: left;
+        }
+      }
+    
+      #contact-link {
+        &:after {
+          content: 'CONTACT';
+        }
+      }
+    
+      a.active {
+        svg {
+          color: #ffd700;
+        }
+      }
+    }
+    ul#horizontal-list {
+      list-style: none;
+      text-align: right;
+      position:absolute;
+      top: 0;
+      right: 0;
+
+    }
+    ul#horizontal-list li{
+      display: inline;
+      a{
+        padding-right: 25px;
+        font-size: 35px;
+        line-height: 16px;
+        color: #4d4d4e;
+        &:hover svg{
+          color: #ffd700;
+        }
+      }
+
+
+    }
+/*    
+  ul {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+    text-align:right;
+    margin: 0;
+    bottom: 10px;
+    top: 10px;
+
+
+    li {
+      a {
+        padding-right: 35px;
+        display: inline-block;
+        padding-bottom: 10px;
+        font-size: 15px;
+        line-height: 16px;
+        color: #4d4d4e;
+        &:hover {
+          color: #ffd700;
+        }
+      }
+    }
+  }
+  */
+  
+}
+
+
+
+
+
+  
