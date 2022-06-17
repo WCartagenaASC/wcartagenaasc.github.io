@@ -1,0 +1,11 @@
+.profile-container{
+    display: block flex;
+    flex-wrap: wrap;
+    .profile_pic{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        transform: scale(0.4);
+
+    }
+}

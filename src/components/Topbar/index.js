@@ -11,18 +11,18 @@ import { Link, NavLink } from 'react-router-dom'
 const Topbar = () => {
     return(
         <div className='nav-bar'>
-            <Link className='logo' to = '/'>
+            <Link className='logo' to = '/wesley-react-website'>
                 <img className="letter-logo" src={LogoW} alt="Logo"/>
-                <img className="sub-logo" src={LogoSubtitle} alt="slobodan"/>
+                <img className="sub-logo" src={LogoSubtitle} alt="Cartagena"/>
             </Link>
             <nav classname="nav-links">
-                <NavLink exact="true" activeclassname="active" id="home-link" to="/">
+                <NavLink exact="true" activeclassname="active" id="home-link" to="/wesley-react-website">
                     <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" id="about-link" to="/about">
+                <NavLink exact="true" activeclassname="active" id="about-link" to="about">
                     <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" id="contact-link" to="/contact">
+                <NavLink exact="true" activeclassname="active" id="contact-link" to="contact">
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
                 </NavLink>
             </nav>

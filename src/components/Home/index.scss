@@ -1,10 +1,12 @@
 .home-page{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
     .text-zone{
-        position: absolute;
-        left: 10%;
+        position: relative;
+        left: 5%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
         max-height: 90%;
     }
     h1{
