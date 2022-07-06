@@ -6,11 +6,10 @@ const Layout = () => {
     return ( 
         <div className="App"> 
           <Topbar />
-          <div className='page'>
+          <div className="page">
             <span className='tags top-tags'>&lt;body&gt;</span>
 
             <Outlet />
-
             <span className='tags bottom-tags'>
             &lt;/body&gt;
             <br />
