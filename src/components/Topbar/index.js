@@ -11,12 +11,12 @@ import { Link, NavLink } from 'react-router-dom'
 const Topbar = () => {
     return(
         <div className='nav-bar'>
-            <Link className='logo' to = '/wesley-react-website'>
+            <Link className='logo' to = '/'>
                 <img className="letter-logo" src={LogoW} alt="Logo"/>
                 <img className="sub-logo" src={LogoSubtitle} alt="Cartagena"/>
             </Link>
             <nav classname="nav-links">
-                <NavLink exact="true" activeclassname="active" id="home-link" to="/wesley-react-website">
+                <NavLink exact="true" activeclassname="active" id="home-link" to="/">
                     <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" id="about-link" to="about">
