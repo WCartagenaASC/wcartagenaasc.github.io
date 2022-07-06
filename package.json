@@ -1,8 +1,8 @@
 {
-  "homepage": "http://wcartagenaasc.github.io/wesley-react-website",
   "name": "wesley-react-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://wcartagenaasc.github.io",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
