@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cbc75857.css",
-    "main.js": "/static/js/main.2cb61ea9.js",
+    "main.js": "/static/js/main.56f8b6f8.js",
     "static/js/787.3b71e504.chunk.js": "/static/js/787.3b71e504.chunk.js",
     "static/media/Profile.png": "/static/media/Profile.44cd06f84e3f21a16db9.png",
     "static/media/cartagena.png": "/static/media/cartagena.b1881a432f983f3e0355.png",
@@ -11,11 +11,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
     "main.cbc75857.css.map": "/static/css/main.cbc75857.css.map",
-    "main.2cb61ea9.js.map": "/static/js/main.2cb61ea9.js.map",
+    "main.56f8b6f8.js.map": "/static/js/main.56f8b6f8.js.map",
     "787.3b71e504.chunk.js.map": "/static/js/787.3b71e504.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbc75857.css",
-    "static/js/main.2cb61ea9.js"
+    "static/js/main.56f8b6f8.js"
   ]
 }
