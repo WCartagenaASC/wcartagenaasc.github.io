@@ -1,6 +1,6 @@
 import './index.scss';
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react'
+import { useEffect,useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/Index';
 import Profile from './Profile'
 //import profile from '../../assets/images/Profile.png'
@@ -11,10 +11,11 @@ const Home = () => {
     const jobArray = ['I','T',' ','D','e','v','e','l','o','p','e','r']
 
     useEffect(() => {
-        return setTimeout(() => {
+        setTimeout(() => {
           setLetterClass('text-animate-hover')
         }, 4000)
-      }, [])
+        return () => clearTimeout()
+    }, []);
 
     return(
         
