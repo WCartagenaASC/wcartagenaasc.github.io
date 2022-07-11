@@ -1,8 +1,10 @@
 .profile-container{
+    outline: 1px solid red;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     position: relative;
     transform: scale(0.3);
     bottom: 150px;
-
+    max-width: 100%
 }
