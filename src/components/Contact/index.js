@@ -34,37 +34,23 @@ const Contact = () => {
     };
     return(
         <div className ='container contact-page'>
-            <div className='text-zone'>
-                <h1>
-                    <AnimatedLetters letterClass={letterClass}
-                        strArray={contactArray} 
-                        idx={15}
-                    />
-                </h1>
-                <div className="info">
-                    Wesley Cartagena,
-                    <br />
-                    New York,
-                    <br />
-                    <span>wesley.cartagena23@outlook.com</span>
-                </div>
-                                
+            <div class="form-container">
+              <div className='contact-text-zone'>
+                  <h1>
+                      <AnimatedLetters letterClass={letterClass}
+                          strArray={contactArray} 
+                          idx={15}
+                      />
+                  </h1>             
+              </div>
+                <form class="contact-form" onSubmit={handleSubmit}>
+                  <input type="text" id="name" placeholder="Full name" required />
+                  <input type="email" id="email" placeholder="Email"required />
+                  <input type="subject" id="subject" placeholder="Subject"required />
+                  <textarea id="message" placeholder="message" cols="30" rows="10" required ></textarea>
+                  <button type="submit">{status}</button>
+                </form>
             </div>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" required />
-                </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" id="email" required />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea id="message" required />
-                </div>
-                <button type="submit">{status}</button>
-            </form>
         </div>
     );
 }
