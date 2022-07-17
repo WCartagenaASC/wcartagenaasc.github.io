@@ -4,7 +4,7 @@ import AnimatedLetters from '../AnimatedLetters/Index'
 
 const Contact = () => {
   const[letterClass, setLetterClass]= useState('text-animate')
-  const contactArray = ['C','o','n','t','a','c','t',' ','M','e']
+  const contactArray = ['Contact',' ','Me']
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
@@ -35,21 +35,22 @@ const Contact = () => {
     return(
         <div className ='container contact-page'>
             <div class="form-container">
-              <div className='contact-text-zone'>
-                  <h1>
-                      <AnimatedLetters letterClass={letterClass}
-                          strArray={contactArray} 
-                          idx={15}
-                      />
-                  </h1>             
-              </div>
-                <form class="contact-form" onSubmit={handleSubmit}>
-                  <input type="text" id="name" placeholder="Full name" required />
-                  <input type="email" id="email" placeholder="Email"required />
-                  <input type="subject" id="subject" placeholder="Subject"required />
-                  <textarea id="message" placeholder="message" cols="30" rows="10" required ></textarea>
-                  <button type="submit">{status}</button>
-                </form>
+              <form class="contact-form" onSubmit={handleSubmit}>
+                  <div className='contact-text-zone'>
+                      <span>
+                          <AnimatedLetters letterClass={letterClass}
+                              strArray={contactArray} 
+                              idx={15}
+                          />
+                      </span>             
+                  </div>      
+                  <input name="name" type="text" class="feedback-input" placeholder="Name" required/>   
+                  <input name="email" type="email" class="feedback-input" placeholder="Email" required/>
+                  <textarea name="text" class="feedback-input" placeholder="Comment" required></textarea>
+                  <button type="submit" value="SUBMIT">{status}</button>
+              </form>
+
+
             </div>
         </div>
     );

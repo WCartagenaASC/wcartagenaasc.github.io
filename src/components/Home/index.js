@@ -7,7 +7,7 @@ import Profile from './Profile'
 
 const Home = () => {
     const[letterClass, setLetterClass]= useState('text-animate')
-    const nameArray = [' ','W','e','s','l','e','y',' ','C','a','r','t','a','g','e','n','a']
+    const nameArray = [' ','Wesley',' ','Cartagena']
     const jobArray = ['I','T',' ','D','e','v','e','l','o','p','e','r']
 
     useEffect(() => {
