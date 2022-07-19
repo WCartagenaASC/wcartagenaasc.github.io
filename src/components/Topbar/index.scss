@@ -15,12 +15,14 @@
 
   }
     .letter-logo{
+      outline: 1px solid red;
       padding-top: 10px;
       padding-left: 35px;
       width: 24px;
       z-index: 0;
     }
     .sub-logo{
+      outline: 1px solid red;
       display:block;
       width: 75px;
       z-index: 1;
@@ -30,19 +32,21 @@
       text-align: center;
       width: 100%;
       #home-link{
-        text-align: center;
         padding-right: 25px;
         bottom: 45px;
         font-size: 35px;
       }
       #about-link{
-        text-align: center;
         padding-right: 25px;
         bottom: 45px;
         font-size: 35px;
       }
       #contact-link{
-        text-align: center;
+        padding-right: 25px;
+        bottom: 45px;
+        font-size: 35px;
+      }
+      #project-link{
         padding-right: 25px;
         bottom: 45px;
         font-size: 35px;
@@ -81,7 +85,8 @@
           display: block;
           width: 100%;
           opacity: 0;
-          text-align: center;
+          text-align: left;
+          justify-content: left;
           -webkit-transition: all 0.3s ease-out;
           transition: all 0.3s ease-out;
         }
@@ -104,7 +109,11 @@
           content: 'CONTACT';
         }
       }
-    
+      #project-link {
+        &:after {
+          content: 'PROJECTS';
+        }
+      }
       a.active {
         svg {
           color: #32CD30;

@@ -37,9 +37,11 @@
 }
 
 .container.about-page{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
       .text-zone{
           position: relative;
           left: 5%;
@@ -78,6 +80,8 @@
     display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
       .text-zone{
           position: relative;
           left: 5%;

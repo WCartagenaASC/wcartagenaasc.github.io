@@ -3,7 +3,7 @@ import LogoW from '../../assets/images/W.png'
 import LogoSubtitle from '../../assets/images/cartagena.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser,faDiagramProject, faFile} from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
 
@@ -25,6 +25,9 @@ const Topbar = () => {
                 <NavLink exact="true" activeclassname="active" id="contact-link" to="contact">
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
                 </NavLink>
+                <NavLink exact="true" activeclassname="active" id="project-link" to="project">
+                    <FontAwesomeIcon icon={faDiagramProject} color="#4d4d4e"/>
+                </NavLink>
             </nav>
             <div class="Social-List">
             <ul id="horizontal-list">
@@ -44,6 +47,15 @@ const Topbar = () => {
                         rel="noreferrer"
                     >
                         <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://github.com/wcartagenaasc"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
                     </a>
                 </li>
             </ul>

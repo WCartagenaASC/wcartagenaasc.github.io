@@ -2,14 +2,21 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
     
     .text-zone{
         outline: 1px solid red;
         position: relative;
-        left: 5%;
+        left: 2%;
         top: 50%;
         transform: translateY(-50%);
         max-height: 90%;
+        max-width: 475px;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+        justify-content: center;
     }
     h1{
         color: white;
@@ -18,33 +25,7 @@
         font-family: 'Coolvetica';
         font-weight: 400;
     }
-/*
-    &::before{
-        content: '<h1>';
-        font-family: 'La Belle Aurore';
-        color: #ffd700;
-        font-size: 18px;
-        position: absolute;
-        margin-top: -40px;
-        left: 15px;
-        opacity: 0.6;
-        #32CD30
-        #8B0F32
 
-    }
-
-    &::after{
-        display: block;
-        content: '</h1>';
-        font-family: 'La Belle Aurore';
-        color: #ffd700;
-        font-size: 18px;
-        position: inherit;
-        margin-top: 620px;
-        margin-left: 350px;
-        animation: fadeIn 1s 1.7s backwards;
-        opacity: 0.6;
-    }*/
     h2 {
         color: #8d8d8d;
         margin-top: 20px;
