@@ -38,7 +38,7 @@ const Home = () => {
                 <h2>Developer / JavaScript / HTML / CSS / React / Python</h2>
                 <Link to="contact" className="flat-button">Contact Me</Link>
             </div>
-            <Profile />
+            {/*<Profile />*/}
         </div>
         
     );

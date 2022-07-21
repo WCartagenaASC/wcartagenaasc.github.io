@@ -140,6 +140,133 @@
 
 
     }
+
+    @media only screen and (max-width: 399px) {
+      nav{
+        a{
+        &:after {
+          font-size: 6px;
+        }
+      }
+        #home-link{
+          padding-right: 15px;
+          bottom: 40px;
+          font-size: 30px;
+          right: 25px;
+
+        }
+        #about-link{
+          padding-right: 15px;
+          bottom: 40px;
+          font-size: 30px;
+          right: 25px;
+
+        }
+        #contact-link{
+          padding-right: 15px;
+          bottom: 40px;
+          font-size: 30px;
+          right: 25px;
+
+        }
+        #project-link{
+          padding-right: 15px;
+          bottom: 40px;
+          font-size: 30px;
+          right: 25px;
+   
+        }
+      }
+      .letter-logo{
+        padding-top: 15px;
+        padding-left: 25px;
+        width: 15px;
+
+      }
+      .sub-logo{
+        width: 46px;
+
+      }
+      ul#horizontal-list {
+        list-style: none;
+        text-align: right;
+        position:absolute;
+        top: 0;
+        right: 0;
+  
+      }
+      ul#horizontal-list li{
+        display: inline;
+        a{
+          padding-right: 10px;
+          font-size: 30px;
+        }
+  
+  
+      }
+    }
+    @media only screen and (min-width: 400px) and (max-width: 480px) {
+      nav{
+        a{
+        &:after {
+          font-size: 6.5px;
+        }
+      }
+        #home-link{
+          padding-right: 15px;
+          bottom: 40px;
+          font-size: 30px;
+          right: 25px;
+
+        }
+        #about-link{
+          padding-right: 15px;
+          bottom: 40px;
+          font-size: 30px;
+          right: 25px;
+
+        }
+        #contact-link{
+          padding-right: 15px;
+          bottom: 40px;
+          font-size: 30px;
+          right: 25px;
+
+        }
+        #project-link{
+          padding-right: 15px;
+          bottom: 40px;
+          font-size: 30px;
+          right: 25px;
+   
+        }
+      }
+      .letter-logo{
+        width: 19px;
+
+      }
+      .sub-logo{
+        width: 60px;
+
+      }
+      ul#horizontal-list {
+        list-style: none;
+        text-align: right;
+        position:absolute;
+        top: 0;
+        right: 0;
+  
+      }
+      ul#horizontal-list li{
+        display: inline;
+        a{
+          padding-right: 15px;
+          font-size: 30px;
+        }
+  
+  
+      }
+    }
 }
 
 
