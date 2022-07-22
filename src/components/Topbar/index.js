@@ -15,17 +15,17 @@ const Topbar = () => {
                 <img className="letter-logo" src={LogoW} alt="Logo"/>
                 <img className="sub-logo" src={LogoSubtitle} alt="Cartagena"/>
             </Link>
-            <nav classname="nav-links">
-                <NavLink exact="true" activeclassname="active" id="home-link" to="/">
+            <nav>
+                <NavLink class="nav-links"  exact="true" activeclassname="active" id="home-link" to="/">
                     <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" id="about-link" to="about">
+                <NavLink class="nav-links"  exact="true" activeclassname="active" id="about-link" to="about">
                     <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" id="contact-link" to="contact">
+                <NavLink class="nav-links"  exact="true" activeclassname="active" id="contact-link" to="contact">
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" id="project-link" to="project">
+                <NavLink class="nav-links" exact="true" activeclassname="active" id="project-link" to="Projects">
                     <FontAwesomeIcon icon={faDiagramProject} color="#4d4d4e"/>
                 </NavLink>
             </nav>

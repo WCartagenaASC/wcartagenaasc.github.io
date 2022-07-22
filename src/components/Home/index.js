@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import { useEffect,useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/Index';
 import Profile from './Profile'
-//import profile from '../../assets/images/Profile.png'
+import profile from '../../assets/images/Profile.png'
 
 const Home = () => {
     const[letterClass, setLetterClass]= useState('text-animate')
     const nameArray = [' ','Wesley',' ','Cartagena']
-    const jobArray = ['I','T',' ','D','e','v','e','l','o','p','e','r']
+    const jobArray = ['Software',' ','Developer']
 
     useEffect(() => {
         setTimeout(() => {
@@ -19,14 +19,12 @@ const Home = () => {
 
     return(
         
-        <div className="container home-page">
-            <div className="text-zone">
+        <section class="container home-page">
+            <div class="text-zone" id="text">
                 <h1>
-                <span className={letterClass}>H</span>
-                <span className={`${letterClass} _12`}>i,</span>
+                <span className={letterClass}>Hi,</span>
                 <br/>
-                <span className={`${letterClass} _13`}>I</span>
-                <span className={`${letterClass} _14`}>'m </span>
+                <span className={`${letterClass} _13`}>I'm</span>
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
                 idx={15}/>
@@ -39,7 +37,8 @@ const Home = () => {
                 <Link to="contact" className="flat-button">Contact Me</Link>
             </div>
             {/*<Profile />*/}
-        </div>
+            <img class = "text-zone" src = {profile} id = "pic" alt = "profile"/>
+        </section>
         
     );
 
