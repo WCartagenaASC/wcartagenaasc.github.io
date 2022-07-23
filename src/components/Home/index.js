@@ -2,7 +2,7 @@ import './index.scss';
 import { Link } from 'react-router-dom';
 import { useEffect,useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/Index';
-import Profile from './Profile'
+//import Profile from './Profile'
 import profile from '../../assets/images/Profile.png'
 
 const Home = () => {
